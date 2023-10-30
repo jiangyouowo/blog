@@ -117,3 +117,22 @@ a {
   -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
 }
+/* 先添加你原有的CSS代码 */
+
+/* 新添加的图片和标注样式 */
+ul#issue-list li {
+  list-style: none; /* 去除默认列表样式 */
+  margin-bottom: 20px; /* 图片项之间的间距 */
+}
+
+ul#issue-list img {
+  max-width: 100%; /* 图片大小适应容器 */
+  height: auto; /* 保持纵横比 */
+}
+
+ul#issue-list p {
+  margin-top: 10px; /* 标注信息与图片之间的间距 */
+  font-size: 16px; /* 字体大小 */
+}
+
+/* 可根据需要进一步自定义样式 */
