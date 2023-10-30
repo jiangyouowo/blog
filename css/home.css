@@ -117,8 +117,6 @@ a {
   -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
 }
-/* 先添加你原有的CSS代码 */
-
 /* 新添加的图片和标注样式 */
 ul#issue-list li {
   list-style: none; /* 去除默认列表样式 */
@@ -126,7 +124,7 @@ ul#issue-list li {
 }
 
 ul#issue-list img {
-  max-width: 100%; /* 图片大小适应容器 */
+  max-width: 50%; /* 图片大小适应容器 */
   height: auto; /* 保持纵横比 */
 }
 
