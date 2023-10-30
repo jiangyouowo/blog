@@ -14,9 +14,10 @@
         "首页":"./"
     },
     "friends": {
-        "imuncle" : "https://imuncle.github.io"
+        "imuncle" : ""
     },
     "icons": {
+        "imuncle" : "扫描上图二维码即可联系"
         "Github" : {
             "icon_src" : "images/github.svg",
             "href" : "https://github.com/imuncle/gitblog",
